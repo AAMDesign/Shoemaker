@@ -57,6 +57,7 @@ audio:not([controls]) {
 
 html {
 	font-size:100%;
+	font-weight: 400;
 	-webkit-text-size-adjust:100%;
 	-ms-text-size-adjust:100%;
 }
@@ -221,7 +222,7 @@ p,h2,h3 {
 body {
 	margin:0;
 	font-family: "futura-pt",sans-serif;
-	font-weight: 400;
+	font-weight: 500;
 	font-size:0.813em;
 	line-height:20px;
 	color:#333333;
@@ -232,6 +233,7 @@ body {
 a {
 	color:#f50808;
 	font-style: italic;
+	line-height: 16px;
     text-transform: uppercase;
 	text-decoration:none;
 }
@@ -825,7 +827,7 @@ ul ul,ul ol,ol ol,ol ul {
 
 
 li {
-	line-height:20px;
+	line-height:16px;
 }
 
 
@@ -980,7 +982,7 @@ address {
 code,pre {
 	padding:0 3px 2px;
 	font-family:Monaco,Menlo,Consolas,"Courier New",monospace;
-	font-weight: 400;
+	font-weight: 500;
 	font-size:0.923em;
 	color:#333333;
 	-webkit-border-radius:3px;
@@ -1390,7 +1392,7 @@ label,input,button,select,textarea {
 
 input,button,select,textarea {
 	font-family: "futura-pt",sans-serif;
-	font-weight: 400;
+	font-weight: 500;
 }
 
 
@@ -3376,7 +3378,7 @@ button.btn.btn-mini,input[type="submit"].btn.btn-mini {
 
 .nav-stacked>li {
 	float:none;
-	margin: 0 0 5px 0;
+	margin: 0 0 8px 0;
 }
 
 .nav-stacked>li>a {
@@ -3719,7 +3721,7 @@ button.btn.btn-mini,input[type="submit"].btn.btn-mini {
 	margin-bottom:0;
 	padding:4px 14px;
 	font-family: "futura-pt",sans-serif;
-	font-weight: 400;
+	font-weight: 500;
 	font-size:1.000em;
 	line-height:1;
 	-webkit-border-radius:15px;
